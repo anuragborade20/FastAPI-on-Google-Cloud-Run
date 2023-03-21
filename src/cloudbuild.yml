@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'asia-south1-docker.pkg.dev/just-metric-378406/fast-api-app-repo/fastapi', '.']
+images:
+- 'asia-south1-docker.pkg.dev/just-metric-378406/fast-api-app-repo/fastapi'
